@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "baseUrl": "./src",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "lib": ["esnext"],
+    "strict": true,
+    "skipLibCheck": true,
+    "paths": {
+      "@/*": ["*"],
+      "@config/*": ["config/*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules","dist"]
+}

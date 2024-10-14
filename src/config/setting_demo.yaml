@@ -1,0 +1,4 @@
+global:
+  host: "localhost"
+  protocol: "http"
+  port: 3050

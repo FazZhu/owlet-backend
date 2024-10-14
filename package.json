@@ -1,0 +1,24 @@
+{
+  "name": "owlet-backend",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "start": "ts-node -r tsconfig-paths/register src/app.ts --files",
+    "dev": "nodemon"
+  },
+  "keywords": [],
+  "author": "FzzZ",
+  "license": "MPL-2.0",
+  "description": "",
+  "dependencies": {
+    "koa": "^2.15.3"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.15.0",
+    "@types/node": "^22.7.5",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
