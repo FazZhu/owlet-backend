@@ -4,7 +4,7 @@
   "main": "app.js",
   "scripts": {
     "build": "rm -rf dist && tsc",
-    "start": "ts-node -r tsconfig-paths/register src/app.ts --files",
+    "start": "node -r ts-node/register -r tsconfig-paths/register src/app.ts --files --env-file=./.env",
     "dev": "nodemon"
   },
   "keywords": [],
