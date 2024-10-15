@@ -1,6 +1,7 @@
 import Koa from 'koa'
 import * as process from "process";
 import logger from "@/middlewares/logger";
+import 'reflect-metadata'
 
 const app = new Koa();
 const port = process.env.PORT ?? 3000;

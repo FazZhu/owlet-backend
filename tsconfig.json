@@ -5,6 +5,8 @@
     "outDir": "./dist",
     "baseUrl": "./src",
     "esModuleInterop": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
     "moduleResolution": "node",
     "lib": ["esnext"],
